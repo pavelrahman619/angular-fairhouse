@@ -1,3 +1,6 @@
+## New feature:
+Added Data Service
+
 # Introduction to Angular Codelab
 
 \In this codelab, you'll build a housing app with Angular. The completed app will feature the ability to view home listings based on user search, and view details of a housing location.
