@@ -1,5 +1,5 @@
 ## New feature:
-Added Data Service
+* Added Data Service
 
 # Introduction to Angular Codelab
 
