@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="location-search">Search for a new place</label>
+    <input id="location-search" placeholder="Ex: Chicago" #search><button
+        (click)="searchHousingLocations(search.value)">Search</button>
+
+    <article *ngFor="let location of results">
+        <img [src]="location.photo" [alt]="location.name">
+        <p>{{location.name}}</p>
+        <p>{{location.city}}, {{location.state}}</p>
+        <button (click)="selectHousingLocation(location)">View</button>
+    </article>
+</body>
+
+</html>
